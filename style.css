@@ -1,0 +1,295 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url(Poppins-Bold.ttf);
+}
+
+.nav-item {
+
+    font-family: Poppins;
+}
+
+.main {
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.contact {
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+
+.btn-lg {
+    border: 1px solid red;
+}
+
+.Services {
+    font-family: Poppins;
+
+}
+
+.Quote {
+    height: 60px;
+    border-radius: 40px;
+    position: relative;
+
+}
+
+.anchor {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+
+
+}
+
+.Info>h1 {
+    font-family: Poppins;
+    font-size: 67px;
+    font-weight: 600;
+
+}
+
+.Info>p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+
+
+}
+
+.part-1 {
+    background-image: linear-gradient(to right, rgba(193, 222, 232, 1), rgba(251, 217, 185, 1));
+    height: 630px;
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .Info {
+        text-align: center;
+    }
+
+    .pic {
+        text-align: center;
+        margin: 0px auto;
+
+
+
+    }
+
+    .pic img {
+        width: 100%;
+
+    }
+
+    .part-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+    }
+
+    .input-group {
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.rounded-start-pill {
+    height: 60px;
+
+
+}
+
+.easy {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.steps {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.fa-solid {
+    width: 50px;
+    height: 100px;
+
+}
+
+.lorem {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.h1 {
+    font-family: Poppins;
+    font-weight: bolder;
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .h1,
+    .lorem,
+    .pic-2 {
+        text-align: center;
+    }
+}
+
+.card-1 {
+    width: 400px;
+    height: 440px;
+    border-radius: 14px;
+    border: 1px solid rgba(190, 190, 190, 1);
+    font-family: poppins;
+
+
+
+
+
+}
+
+.card-1>img {
+    width: 398px;
+    margin-bottom: 13px;
+
+
+}
+
+.card-1>h3,
+p,
+span {
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1401px) {
+    .one {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .card-1 {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .card-1 {
+        margin: 20px auto;
+    }
+
+}
+
+.global {
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.transfer {
+    font-size: 38px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.special {
+    font-family: Poppins;
+    font-size: 67px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+
+    .transfer,
+    .lorem,
+    .special {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+
+
+    }
+
+    .Group {
+        text-align: center;
+        width: 100%;
+
+    }
+}
+.last-part{
+    background-image: linear-gradient(to right, rgba(193, 222, 232, 1), rgba(251, 217, 185, 1));
+    height: 450px;
+    border-radius: 15px;
+
+}
+.Subscribe{
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.submit{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
+
+}
+.form{
+    position: relative;
+    display: inline-block;
+}
+.form>.quote{
+    height: 49px;
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .last-part{
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: auto;
+}
+.pic-5{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+.Subscribe,.lorem{
+    text-align: center;
+}
+}
+
